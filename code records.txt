@@ -1,0 +1,19 @@
+Character text colors
+common theme of 
+Annabella
+she talks in dark pink  \x1b[38;5;200m
+she thinks in a lighter pink  \x1b[38;5;219m
+
+Genevive
+she talks in green \x1b[38;5;10m		
+when angry, she yells in all caps and a brighter green	\x1b[38;5;118m
+
+The Ringmaster
+the Ringmaster talks in yellow to the outside, \x1b[38;5;220m
+when they are hurting the performers, they talk in purple	\x1b[38;5;97m
+
+Silas 
+silas talks in red \x1b[31m
+when he kills a ton of people, his voice gets darker \x1b[38;5;124m
+
+Casper
