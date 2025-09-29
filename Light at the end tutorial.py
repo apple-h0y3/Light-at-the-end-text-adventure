@@ -51,7 +51,7 @@ print("...")
 time.sleep(2)
 print("... you hear something moving in the forest behind you. It sounds like it's getting closer. ")
 print("...")
-print("RUN/STAY")
+print("RUN/STAY")git 
 opts2("")
 <<<<<<< HEAD
 if (opts2 == "RUN") or (opts2 == "run") or (opts2 == "Run"):
