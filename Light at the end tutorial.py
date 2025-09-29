@@ -17,7 +17,7 @@ print("the forest is dark around you. tall trees stretchup towards the sky. The 
 print("Its a piece of white fabric. it flutters in the breeze, and you have the urge to Grab it")
 print("Type Grab")#this introduces how the player will be making decisions
 opts1("")
-if opts1 == "Grab" or "grab" or "GRAB":
+if (opts1 == "Grab") or (opts1 == "grab") or (opts1 == "GRAB"):
     print("you grab the fabric and pull it over your face. it settles over your eyes.")
     print()
 else:
@@ -36,15 +36,12 @@ print("... you hear something moving in the forest behind you. It sounds like it
 print("...")
 print("RUN/STAY")
 opts2("")
-if opts2 == "RUN" or "run" or "Run":
+if (opts2 == "RUN") or (opts2 == "run") or (opts2 == "Run"):
     print("you run towards the hill, sprinting as it chases you. the lights get closer, and a house comes into view. The door swings open, and you dive through it, hearing scratching on the door as it swings shut behind you. ")
     print("")
     print("the house is bright on the inside. someone is moving around, but you're too tired to care.  your feet hurt from running, and your stomache rumbles from something that isn't quite hunger")
     print("")
 # end of tutorial    
-
-
-
-elif opts2 == "STAY" or "Stay" or "stay":
+else:
     print("you stay rooted to the spot. Something lunges from the dark. you feel an intense pain, and then everything goes dark")
     print("GAME OVER...")
