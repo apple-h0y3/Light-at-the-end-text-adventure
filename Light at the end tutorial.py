@@ -2,8 +2,8 @@
 import time# this will help with the suspensful pauses
 
 startgame=input
-opts1=input
-opts2=input
+opts1=""
+opts2=""
 
 print("In this game, decision points will show up like this: YES/NO Type your answer")
 print("ready to start?")
@@ -22,7 +22,7 @@ print("you stand shakily. the voice sounds familiar for some reason.")
 print("the forest is dark around you. tall trees stretchup towards the sky. The leaves rustle in the wind, and something waving in the wind catches your attention")
 print("Its a piece of white fabric. it flutters in the breeze, and you have the urge to Grab it")
 print("Type Grab")#this introduces how the player will be making decisions
-opts1("")
+opts1=input().lower()
 
 if (opts1== "GRAB") or (opts1 == "grab") or (opts1 == "Grab"): #this works now!
     print("you grab the fabric and pull it over your face. it settles over your eyes.")
@@ -41,10 +41,10 @@ print("...")
 time.sleep(2)
 print("... you hear something moving in the forest behind you. It sounds like it's getting closer. ")
 print("...")
-print("RUN/STAY")git 
-opts2("")
+print("RUN/STAY")g
+opts2=input().lower()
 
-if (opts2== "RUN") or (opts2 == "run") or (opts2 == "Run"):
+if opts2 == "run":
     print("you run towards the hill, sprinting as it chases you. the lights get closer, and a house comes into view. The door swings open, and you dive through it, hearing scratching on the door as it swings shut behind you. ")
     print("")
     print("the house is bright on the inside. someone is moving around, but you're too tired to care.  your feet hurt from running, and your stomache rumbles from something that isn't quite hunger")

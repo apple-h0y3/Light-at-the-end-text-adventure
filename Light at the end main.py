@@ -65,4 +65,7 @@ else:
     print("\x1b[38;5;200mSTAY AWAY FROM ME!!!!\033[0m")
     time.sleep(1)
     print("\033[32m oh,you don't need to be afraid of me. My name is Genevive.\033[0m")
-    print("something about how homely and nice she looks makes you feel safe.")
+    print("something about how homely and nice she looks makes you feel better.")
+
+print("\033[32m welcome to my home!\033[0m")
+print("")
