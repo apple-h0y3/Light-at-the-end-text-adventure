@@ -1,20 +1,15 @@
 #this is a text video game. 
 import time# this will help with the suspensful pauses
-<<<<<<< HEAD
-=======
+
 startgame=input
->>>>>>> a993a73 (added room list under class map, updated tutorial, added Main body of game, added test file, added code records)
 opts1=input
 opts2=input
 
 print("In this game, decision points will show up like this: YES/NO Type your answer")
-<<<<<<< HEAD
-=======
 print("ready to start?")
 print("START/START")
 startgame("")
 time.sleep(3)
->>>>>>> a993a73 (added room list under class map, updated tutorial, added Main body of game, added test file, added code records)
 print("Annabelle. The eyes and mouth are windows to the soul. Never let anyone see inside unless you trust them to know what you are and not use it against you.")
 time.sleep(5)
 print("It's dark. A forest comes in and out of focus as you struggle to stand")
@@ -28,15 +23,10 @@ print("the forest is dark around you. tall trees stretchup towards the sky. The 
 print("Its a piece of white fabric. it flutters in the breeze, and you have the urge to Grab it")
 print("Type Grab")#this introduces how the player will be making decisions
 opts1("")
-<<<<<<< HEAD
-if (opts1 == "Grab") or (opts1 == "grab") or (opts1 == "GRAB"):
-    print("you grab the fabric and pull it over your face. it settles over your eyes.")
-    print()
-=======
+
 if (opts1== "GRAB") or (opts1 == "grab") or (opts1 == "Grab"): #this works now!
     print("you grab the fabric and pull it over your face. it settles over your eyes.")
     print("")
->>>>>>> a993a73 (added room list under class map, updated tutorial, added Main body of game, added test file, added code records)
 else:
    print("you grab the fabric and pull it over your face. it settles over your eyes.")
    print()
@@ -53,23 +43,14 @@ print("... you hear something moving in the forest behind you. It sounds like it
 print("...")
 print("RUN/STAY")git 
 opts2("")
-<<<<<<< HEAD
-if (opts2 == "RUN") or (opts2 == "run") or (opts2 == "Run"):
-=======
+
 if (opts2== "RUN") or (opts2 == "run") or (opts2 == "Run"):
->>>>>>> a993a73 (added room list under class map, updated tutorial, added Main body of game, added test file, added code records)
     print("you run towards the hill, sprinting as it chases you. the lights get closer, and a house comes into view. The door swings open, and you dive through it, hearing scratching on the door as it swings shut behind you. ")
     print("")
     print("the house is bright on the inside. someone is moving around, but you're too tired to care.  your feet hurt from running, and your stomache rumbles from something that isn't quite hunger")
     print("")
-<<<<<<< HEAD
+
 # end of tutorial    
 else:
     print("you stay rooted to the spot. Something lunges from the dark. you feel an intense pain, and then everything goes dark")
     print("GAME OVER...")
-=======
-# end of tutorial   
-else:
-    print("you stay rooted to the spot. Something lunges from the dark. you feel an intense pain, and then everything goes dark")
-    print("GAME OVER...")
->>>>>>> a993a73 (added room list under class map, updated tutorial, added Main body of game, added test file, added code records)
