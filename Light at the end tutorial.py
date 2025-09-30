@@ -59,4 +59,3 @@ elif opts2 == "stay":
 else:
     print("you stay rooted to the spot. Something lunges from the dark. you feel an intense pain, and then everything goes dark")
     print("GAME OVER...")
-git 
