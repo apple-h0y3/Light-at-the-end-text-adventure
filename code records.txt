@@ -19,3 +19,6 @@ when he kills a ton of people, his voice gets darker \x1b[38;5;124m
 Casper
 casper talks in blue! \x1b[38;5;27m
 when he's scared, he talks in a brighter cyan/teal x1b[38;5;39m
+
+BUGS
+-tutorial decision input no longer works
