@@ -1,6 +1,6 @@
 Character text colors
-common theme of 
-Annabella
+
+Annabelle
 she talks in dark pink  \x1b[38;5;200m
 she thinks in a lighter pink  \x1b[38;5;219m
 
@@ -17,3 +17,5 @@ silas talks in red \x1b[31m
 when he kills a ton of people, his voice gets darker \x1b[38;5;124m
 
 Casper
+casper talks in blue! \x1b[38;5;27m
+when he's scared, he talks in a brighter cyan/teal x1b[38;5;39m
