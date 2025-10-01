@@ -31,9 +31,12 @@ class map:
 
 #genevives manor
 gmFront=map()
-gmFront.name("Genevives Front Entrance")
-gmFront.info("")
-gmFront.open(True)
+gmFront.name=("Genevives Front Entrance")
+gmFront.info=("""A big room with floor to ceiling windows on one side, covered with heavy white a curtnd goldains.
+               The room is lit up with bright silver lamps, and the room smells faintly of flowers.
+               There’s a set of  ornate double doors on one end of the room. The cross above the door makes you uneasy.
+               Something in this room makes you uncomfortable.""")
+gmFront.open=(True)
 gmDining=map()
 gmDining.name("Genevives dining room")
 gmDining.info("")
