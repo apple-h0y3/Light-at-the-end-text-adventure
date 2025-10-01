@@ -39,7 +39,7 @@ class map:
 #genevives manor
 gmFront=map()
 gmFront.name("Genevives Front Entrance")
-gmFront.info("")
+gmFront.info("A big room with floor to ceiling windows on one side, covered with heavy white and gold curtains. The room is lit up with bright silver lamps, and the room smells faintly of flowers. There’s a set of  ornate double doors on one end of the room. The cross above the door makes you uneasy. Something in this room makes you uncomfortable.   ")
 gmFront.open(True)
 gmDining=map()
 gmDining.name("Genevives dining room")
@@ -62,57 +62,6 @@ gmLounge.name("Genevives living room")
 gmLounge.info("")
 gmLounge.open(True)
 
-#Cherry Pie forest
-fClearing=map()
-fClearing.name("The Forest")
-fClearing.info("")
-fClearing.open(True)
-fPath=map()
-fPath.name("The Forest")
-fPath.info("")
-fPath.open(True)
-
-
-
-#circus
-cOutside=map()
-cOutside.name("Outside the big tent")
-cOutside.info("")
-cOutside.open(True)
-cTent=map()
-cTent.name("Inside the big Tent")
-cTent.info("")
-cTent.open(True)
-cBstage=map()
-cBstage.name("Behind the curtains of the Tent")
-cBstage.info("")
-cBstage.open(True)
-cDorms=map()
-cDorms.name("Inside the small tent")
-cDorms.info("")
-cDorms.open(True)
-cAnimal=map()
-cAnimal.name("Behind the small tent")
-cAnimal.info("")
-cAnimal.open(True)
-cOffice=map()
-cOffice.name("In the trailer")
-cOffice.info("")
-cOffice.open(True)
-
-
-#Silas's estate
-sGarden=map()
-sEntrance=map()
-slounge=map()
-skitchen=map()
-sBasement=map()
-sCloset=map()
-
-#arthurs cottage
-aGarden=map()
-aCottage=map()
-
 
 print("")
 print("you run towards the hill, sprinting as it chases you. the lights get closer, and a house comes into view. The door swings open, and you dive through it, hearing scratching on the door as it swings shut behind you. ")
@@ -125,8 +74,8 @@ print("A bright voice sounds from behind you")
 print('\033[32mWell hello there!\033[0m')
 
 time.sleep(1)
-print("you struggle to your feet as you take in your surroundings. the room is lit up with bright lamps,")
-print("and windows covered by heavy white and gold curtains line one wall. you can see the beautiful tapestries")
+print("you struggle to your feet as you take in your surroundings. ")
+print(gmFront.name)
 print("along the other wall, and the open double doors on the other end of the room")
 time.sleep(3)
 print("\033[32myou know, its polite to greet your host\033[0m")

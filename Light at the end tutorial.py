@@ -4,10 +4,9 @@ import time# this will help with the suspensful pauses
 startgame=input
 opts1=""
 opts2=""
-opts1=""
-opts2=""
 
-print("In this game, decision points will show up like this: YES/NO Type your answer")
+print("In this game, decision points will show up like this: Yes/No")
+print("the colors of Character voices are used for storytelling. Pay attention to them!")
 print("ready to start?")
 print("START/START")
 startgame("")
