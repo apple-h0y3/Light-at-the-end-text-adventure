@@ -50,7 +50,11 @@ Best not to try and move the furniture lest it collapse. The framed mirror in th
 gmBed.open=(True)
 gmHall=map()
 gmHall.name=("The hallway")
-gmHall.info=("")
+gmHall.info=("""the hall seems near endless, lined with paintings on both walls. Many of Genevieve, some of landscapes, others of people with the faces painted over with black. The doors 
+are inconsistent as well. Some of the wood is chipped while others look brand new. A few of the doornobs are crusted with dust that seems decades old. One is 
+so worn down the dark steel core shows through golden plating.
+
+""")
 gmHall.open=(True)
 gmFood=map()
 gmFood.name=("Genevives Kitchen")
@@ -114,6 +118,12 @@ aCottage=map()
 
 print(gmFront.name)
 print(gmFront.info)
+print()
 
 print(gmDining.name)
 print(gmDining.info)
+print()
+
+print(gmHall.name)
+print(gmHall.info)
+
